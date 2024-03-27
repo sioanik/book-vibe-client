@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "Haruki Murakami",
+      "image": "https://i.ibb.co/xJfzd18/A4.jpg",
+      "books_written": ["Norwegian Wood", "Kafka on the Shore", "1Q84"],
+      "language": "Japanese",
+      "nationality": "Japanese",
+      "total_books": 5,
+      "about": "Haruki Murakami is a Japanese author known for his surreal and imaginative storytelling. His works often explore themes of loneliness, love, and the human condition."
+    },
+    {
+      "id": 2,
+      "name": "J.K. Rowling",
+      "image": "https://i.ibb.co/Mg2QYsQ/a1.jpg",
+      "books_written": ["Harry Potter and the Sorcerer's Stone", "Harry Potter and the Chamber of Secrets", "Harry Potter and the Prisoner of Azkaban"],
+      "language": "English",
+      "nationality": "British",
+      "total_books": 7,
+      "about": "J.K. Rowling is a British author best known for her Harry Potter series, which has captivated readers of all ages worldwide."
+    },
+    {
+      "id": 3,
+      "name": "Gabriel García Márquez",
+      "image": "https://i.ibb.co/DkkPqbT/A2.jpg",
+      "books_written": ["One Hundred Years of Solitude", "Love in the Time of Cholera", "Chronicle of a Death Foretold"],
+      "language": "Spanish",
+      "nationality": "Colombian",
+      "total_books": 4,
+      "about": "Gabriel García Márquez, a Colombian author and Nobel laureate, is renowned for his magical realism and profound storytelling, weaving together history and myth."
+    },
+    {
+      "id": 4,
+      "name": "Toni Morrison",
+      "image": "https://i.ibb.co/Gx1vrv5/A3.jpg",
+      "books_written": ["Beloved", "The Bluest Eye", "Song of Solomon"],
+      "language": "English",
+      "nationality": "American",
+      "total_books": 6,
+      "about": "Toni Morrison, an American novelist and Nobel laureate, is celebrated for her richly layered narratives that explore race, identity, and the complexities of human experience."
+    }
+  ]
+  

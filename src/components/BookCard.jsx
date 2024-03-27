@@ -2,7 +2,7 @@ import { Link, useLoaderData } from "react-router-dom";
 import { FaRegStar } from "react-icons/fa";
 
 
-const Books = ({book}) => {
+const BookCard = ({book}) => {
     // const books = useLoaderData()
     const {author, book_id, book_name, category, image, publisher, rating, review, tags, year_of_publishing} = book
     // console.log(tags[1]);
@@ -31,4 +31,4 @@ const Books = ({book}) => {
     );
 };
 
-export default Books;
+export default BookCard;

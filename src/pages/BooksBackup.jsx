@@ -1,35 +1,19 @@
 import { useLoaderData, useParams } from "react-router-dom";
-// import Loader from "../components/Loader";
+import Loader from "../components/Loader";
 import { saveReadBooks, saveWishlistBooks } from "../utilities/utilities";
-import { useEffect, useState } from "react";
 
 
 const Book = () => {
-
-//     const [books, setBooks] = useState([])
-
-//     useEffect(()=>{
-//         fetch('booksdata.json')
-//         .then(res => res.json())
-//         .then(data=> setBooks(data))
-        
-//     },[])
-
-// console.log(books);
-
     const books = useLoaderData()
 
     // if (!books) {
     //     return null;
     //   }
     // const navigation = useNavigation()
-
-    const book_id1 = useParams()
-    const book_id = book_id1.book_id
-    // const { book_id } = useParams()
+    const { book_id } = useParams()
     const bookIdNum = parseInt(book_id)
     let selectedBook = books.find(book => book.book_id === bookIdNum)
-    // console.log(typeof book_id);
+    // console.log(selectedBook);
     // console.log(selectedBook.book_name);
 
     // const {author, book_id, book_name, category, image, publisher, rating, review, tags, year_of_publishing} = selectedBook
@@ -112,4 +96,4 @@ const Book = () => {
     );
 };
 
-export default Book;
+ default Book;
