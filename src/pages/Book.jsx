@@ -33,7 +33,7 @@ const Book = () => {
                     <h1 className="text-5xl font-bold pb-5">{selectedBook.book_name}</h1>
                     <p className="font-medium pb-5">By: {selectedBook.author}</p>
                     <hr className="border-dashed" />
-                    <p className="font-medium py-4">By: {selectedBook.category}</p>
+                    <p className="font-medium py-4"> {selectedBook.category}</p>
                     <hr className="border-dashed" />
                     <p className="py-6"><span className="font-bold">Review:</span> {selectedBook.review}</p>
                     <div className="flex gap-3 text-[#17BE0A] font-medium">

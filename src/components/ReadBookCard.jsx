@@ -8,8 +8,8 @@ const ReadBookCard = ({ book }) => {
     // console.log(book.book.author);
 
     return (
-        <div className="">
-            <div className="hero bg-base-200">
+        <div className="flex">
+            <div className="">
                 <div className="hero-content flex-col lg:flex-row">
                     <img src={book.image} className="object-contain w-60 h-56 max-w-sm rounded-lg" />
                     <div>
@@ -33,7 +33,7 @@ const ReadBookCard = ({ book }) => {
                             <div className="bg-[#FFAC3326] text-[#ffad33ee] flex justify-center items-center rounded-3xl">
                                 <p className="px-5">Rating: {book.rating}</p>
                             </div>
-                            <button className="btn rounded-3xl btn-primary bg-[#23BE0A] border-none">View Details</button>
+                            <button className="btn rounded-3xl btn-primary text-white bg-[#23BE0A] border-none">View Details</button>
                         </div>
                     </div>
                 </div>

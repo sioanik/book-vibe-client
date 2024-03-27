@@ -8,7 +8,15 @@ const ListedBooks = () => {
         <div className="w-[90%] mx-auto">
             <div className="flex flex-col items-center">
                 <h3 className="text-3xl font-bold py-14 ">Books</h3>
-                <button className="btn font-semibold text-white bg-[#23BE0A]">Sort By <IoIosArrowDown /></button>
+                {/* <button className="btn font-semibold text-white bg-[#23BE0A]">Sort By <IoIosArrowDown /></button> */}
+                <div className="dropdown dropdown-hover">
+                    <div tabIndex={0} role="button" className="btn text-white bg-[#23BE0A] m-1">Sort By <IoIosArrowDown /></div>
+                    <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Rating</a></li>
+                        <li><a>Number of pages</a></li>
+                        <li><a>Published year</a></li>
+                    </ul>
+                </div>
             </div>
 
             <div className="flex items-center mt-12 -mx-4 overflow-x-auto overflow-y-hidden sm:justify-start flex-nowrap dark:bg-gray-100 dark:text-gray-800">
@@ -16,9 +24,9 @@ const ListedBooks = () => {
 
                     <span>Read Books</span>
                 </Link>
-                <Link 
-                to={`wishlist`} 
-                onClick={() => setTabIndex(1)} className={`flex items-center flex-shrink-0 px-5 py-3 space-x-2 ${tabIndex === 1 ? 'border border-b-0' : 'border-b'} rounded-t-lg dark:border-gray-600 dark:text-gray-900`}>
+                <Link
+                    to={`wishlist`}
+                    onClick={() => setTabIndex(1)} className={`flex items-center flex-shrink-0 px-5 py-3 space-x-2 ${tabIndex === 1 ? 'border border-b-0' : 'border-b'} rounded-t-lg dark:border-gray-600 dark:text-gray-900`}>
 
                     <span>Wishlist Books</span>
                 </Link>
