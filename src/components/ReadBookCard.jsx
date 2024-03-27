@@ -1,16 +1,17 @@
 import { CiLocationOn } from "react-icons/ci";
 import { HiOutlineUsers } from "react-icons/hi2";
 import { MdOutlineContactPage } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 
 const ReadBookCard = ({ book }) => {
 
-    // console.log(book.book.author);
+    // console.log(typeof book.book_id);
 
     return (
         <div className="flex">
-            <div className="">
-                <div className="hero-content flex-col lg:flex-row">
+            <div className="bg-base-200 border w-full mb-4 ">
+                <div className="hero-content justify-start flex-grow flex-col lg:flex-row">
                     <img src={book.image} className="object-contain w-60 h-56 max-w-sm rounded-lg" />
                     <div>
                         <h1 className="text-2xl font-bold pb-4">{book.book_name}</h1>
@@ -33,7 +34,10 @@ const ReadBookCard = ({ book }) => {
                             <div className="bg-[#FFAC3326] text-[#ffad33ee] flex justify-center items-center rounded-3xl">
                                 <p className="px-5">Rating: {book.rating}</p>
                             </div>
-                            <button className="btn rounded-3xl btn-primary text-white bg-[#23BE0A] border-none">View Details</button>
+                            
+                            <button className="btn rounded-3xl btn-primary text-white bg-[#23BE0A] border-none">
+                            <Link to={`/book/${book.book_id}`} >View Details</Link>
+                            </button>
                         </div>
                     </div>
                 </div>

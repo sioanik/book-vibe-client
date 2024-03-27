@@ -5,6 +5,10 @@ import { saveReadBooks, saveWishlistBooks } from "../utilities/utilities";
 
 const Book = () => {
     const books = useLoaderData()
+
+    // if (!books) {
+    //     return null;
+    //   }
     // const navigation = useNavigation()
     const { book_id } = useParams()
     const bookIdNum = parseInt(book_id)
@@ -24,6 +28,8 @@ const Book = () => {
     const handleWishlist = selectedBook => {
         saveWishlistBooks(selectedBook)
     }
+
+    
 
     return (
         <div className="hero min-h-screen bg-base-200">
