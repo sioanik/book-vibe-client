@@ -1,0 +1,86 @@
+[
+    {
+      "book_id": 1,
+      "book_name": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image": "https://i.ibb.co/MB6y7VS/B01.jpg",
+      "review": "The Great Gatsby is a captivating story of wealth, love, and tragedy set in the roaring twenties. It follows the enigmatic Jay Gatsby and his obsession with Daisy Buchanan, a woman from his past who is now married to the wealthy Tom Buchanan. As Gatsby seeks to win Daisy's affection, the novel explores themes of ambition, decadence, and the American Dream. F. Scott Fitzgerald's prose is elegant and evocative, painting a vivid portrait of Jazz Age society and the disillusionment that lurks beneath its glittering surface.",
+      "total_pages": 180,
+      "rating": 4.5,
+      "category": "Classic",
+      "tags": ["Romance", "Drama"],
+      "publisher": "Scribner",
+      "year_of_publishing": 1925
+    },
+    {
+      "book_id": 2,
+      "book_name": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "image": "https://i.ibb.co/mN60h1N/B02.jpg",
+      "review": "To Kill a Mockingbird is a poignant tale of racial injustice and moral growth in the American South. Set in the 1930s, it follows young Scout Finch as she navigates the complexities of race, class, and morality in her small Alabama town. When her father, Atticus Finch, a principled lawyer, defends a black man accused of raping a white woman, Scout and her brother Jem witness firsthand the prejudice and hatred that pervade their community. Harper Lee's masterful storytelling and unforgettable characters make this novel a timeless classic.",
+      "total_pages": 336,
+      "rating": 4.7,
+      "category": "Classic",
+      "tags": ["Coming of Age", "Social Issues"],
+      "publisher": "J.B. Lippincott & Co.",
+      "year_of_publishing": 1960
+    },
+    {
+      "book_id": 3,
+      "book_name": "1984",
+      "author": "George Orwell",
+      "image": "https://i.ibb.co/b50bj1L/B03.jpg",
+      "review": "1984 is a chilling dystopian novel that explores themes of surveillance and totalitarianism. Set in a future world where the government exercises complete control over its citizens, it follows the life of Winston Smith, a disillusioned party member who dares to rebel against the oppressive regime. As Winston navigates the dangers of thoughtcrime and surveillance, he embarks on a journey of self-discovery and resistance. George Orwell's prophetic vision and powerful storytelling make 1984 a haunting and thought-provoking read.",
+      "total_pages": 328,
+      "rating": 4.6,
+      "category": "Classic",
+      "tags": ["Dystopia", "Political"],
+      "publisher": "Secker & Warburg",
+      "year_of_publishing": 1949
+    },
+    {
+      "book_id": 4,
+      "book_name": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "image": "https://i.ibb.co/LY9w1yy/B04.jpg",
+      "review": "The Catcher in the Rye is a coming-of-age novel that captures the angst and alienation of adolescence. Narrated by the disillusioned teenager Holden Caulfield, it follows his journey through New York City as he grapples with issues of identity, belonging, and authenticity. Holden's irreverent voice and sharp observations of the adult world make this novel a classic of teenage rebellion and defiance.",
+      "total_pages": 224,
+      "rating": 4.4,
+      "category": "Classic",
+      "tags": ["Young Adult", "Identity"],
+      "publisher": "Little, Brown and Company",
+      "year_of_publishing": 1951
+    },
+    {
+      "book_id": 5,
+      "book_name": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "image": "https://i.ibb.co/T47nDGm/B05.webp",
+      "review": "Pride and Prejudice is a witty and romantic comedy of manners set in Georgian England. It follows the spirited Elizabeth Bennet as she navigates the challenges of love and social status in a society obsessed with marriage. When the wealthy and aloof Mr. Darcy enters her life, Elizabeth's prejudices are challenged, leading to a tumultuous courtship filled with misunderstandings and miscommunications. Jane Austen's sharp wit and keen insight into human nature make this novel a timeless masterpiece.",
+      "total_pages": 432,
+      "rating": 4.8,
+      "category": "Classic",
+      "tags": ["Romance", "Satire"],
+      "publisher": "T. Egerton, Whitehall",
+      "year_of_publishing": 1813
+    },
+    {
+      "book_id": 6,
+      "book_name": "Harry Potter Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "image": "https://i.ibb.co/cFVtMpJ/B06.webp",
+      "review": "Harry Potter and the Sorcerer's Stone is an enchanting tale of magic, friendship, and adventure in the wizarding world. It follows the young wizard Harry Potter as he discovers his true identity and embarks on a journey to Hogwarts School of Witchcraft and Wizardry. Alongside his loyal friends Ron Weasley and Hermione Granger, Harry uncovers dark secrets, encounters mythical creatures, and confronts the dark wizard Voldemort. J.K. Rowling's imaginative storytelling and richly drawn characters make this novel a beloved classic that continues to captivate readers of all ages.",
+      "total_pages": 320,
+      "rating": 4.9,
+      "category": "Fantasy",
+      "tags": ["Magic", "Friendship"],
+      "publisher": "Bloomsbury",
+      "year_of_publishing": 1997
+    }
+  ]
+  
+
+  
+
+
+
