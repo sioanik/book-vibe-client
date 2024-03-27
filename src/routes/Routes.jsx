@@ -8,6 +8,8 @@ import Book from "../pages/Book";
 import ReadBooks from "../components/ReadBooks";
 import WishlistBooks from "../components/WishlistBooks";
 import ErrorPage from "../components/ErrorPage";
+import Upcoming from "../pages/Upcoming";
+import BestAuthors from "../pages/BestAuthors";
 
 const router = createBrowserRouter([
     {
@@ -44,6 +46,14 @@ const router = createBrowserRouter([
             {
                 path:"/pages-to-read",
                 element: <PagesToRead></PagesToRead>
+            },
+            {
+                path:"/upcoming",
+                element: <Upcoming></Upcoming>
+            },
+            {
+                path:"/best-authors",
+                element: <BestAuthors></BestAuthors>
             },
             {
                 path:'/book/:book_id',

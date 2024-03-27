@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "The Alchemist",
+      "image": "https://i.ibb.co/s1ckG2L/Ub2.jpg",
+      "author": "Paulo Coelho"
+    },
+    {
+      "id": 2,
+      "name": "The Martian",
+      "image": "https://i.ibb.co/2vVs4T4/Ub3.jpg",
+      "author": "Andy Weir"
+    },
+    {
+      "id": 3,
+      "name": "The Hobbit",
+      "image": "https://i.ibb.co/gwNFWFF/Ub4.webp",
+      "author": "J.R.R. Tolkien"
+    },
+    {
+      "id": 4,
+      "name": "The Lord of the Rings",
+      "image": "https://i.ibb.co/bsP5bgZ/Ub1.jpg",
+      "author": "J.R.R. Tolkien"
+    }
+  ]
+  
