@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import toast from "react-hot-toast"
 import { json } from "react-router-dom"
 
@@ -52,6 +53,39 @@ export const saveReadBooks = selectedBook => {
     localStorage.setItem('readBooks', JSON.stringify(readBooks))
     toast.success('Blog added to the reading list!')
 }
+
+
+// sorting ------------------------
+export const readSortRating = () =>{
+    let readBooks = getReadBooks()
+    readBooks.sort((a,b) => b.rating - a.rating)
+    localStorage.setItem('readBooks', JSON.stringify(readBooks))
+    // console.log(readBooks);
+    return readBooks
+
+    
+}
+
+export const readSortPages = () =>{
+    let readBooks = getReadBooks()
+    readBooks.sort((a,b) => b.total_pages - a.total_pages)
+    localStorage.setItem('readBooks', JSON.stringify(readBooks))
+    // console.log(readBooks);
+    return readBooks
+
+    
+}
+export const readSortYear = () =>{
+    let readBooks = getReadBooks()
+    readBooks.sort((a,b) => b.year_of_publishing - a.year_of_publishing)
+    localStorage.setItem('readBooks', JSON.stringify(readBooks))
+    // console.log(readBooks);
+    return readBooks
+
+    
+}
+
+
 
 
 

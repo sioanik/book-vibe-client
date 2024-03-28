@@ -32,16 +32,16 @@ const router = createBrowserRouter([
             {
                 path:"/listed-books",
                 element: <ListedBooks></ListedBooks>,
-                children:[
-                    {
-                        index: true,
-                        element: <ReadBooks></ReadBooks>,
-                    },
-                    {
-                        path: 'wishlist',
-                        element: <WishlistBooks></WishlistBooks>
-                    }
-                ]
+                // children:[
+                //     {
+                //         index: 'true',
+                //         element: <ReadBooks></ReadBooks>,
+                //     },
+                //     {
+                //         path: 'wishlist',
+                //         element: <WishlistBooks></WishlistBooks>
+                //     }
+                // ]
             },
             {
                 path:"/pages-to-read",
