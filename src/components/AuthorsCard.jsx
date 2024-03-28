@@ -9,10 +9,10 @@ const AuthorsCard = ({author}) => {
                         <p className="py-6 text-lg">{author.about}</p>
                         <div className="flex gap-4">
                             <div className="bg-[#328EFF26] text-[#328effde] flex justify-center items-center rounded-3xl">
-                                <p className="text-base px-5">Nationality: {author.nationality}</p>
+                                <p className="text-base px-5 text-center">Nationality: {author.nationality}</p>
                             </div>
                             <div className="bg-[#FFAC3326] text-[#ffad33ee] flex justify-center items-center rounded-3xl">
-                                <p className="px-5 text-base">Language: {author.language}</p>
+                                <p className="px-5 text-base text-center">Language: {author.language}</p>
                             </div>
                             
                         </div>
