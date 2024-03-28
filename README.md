@@ -1,6 +1,6 @@
 # Book Vibe
 
-Visit the live site: (https://book-vibe.netlify.app)
+Visit the live site: (https://sio-book-vibe.netlify.app/)
 
 ## Features and Characteristics
 
