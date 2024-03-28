@@ -7,7 +7,7 @@ const BestAuthors = () => {
     const [authors, setAuthors] = useState([])
 
     useEffect(()=>{
-        fetch('/authors.json')
+        fetch('./authors.json')
         .then(res => res.json())
         .then(data => setAuthors(data))
     },[])
