@@ -28,17 +28,17 @@ const ListedBooks = () => {
 
     const handleRating = () => {
         // console.log('rating');
-        setStateSort(ratingSortBooksList)
+        setStateSort([...ratingSortBooksList])
     }
 
     const handlePages = () => {
         // console.log('pages');
-        setStateSort(pagesSortBooksList)
+        setStateSort([...pagesSortBooksList])
     }
 
     const handleYear = () => {
         // console.log('pages');
-        setStateSort(yearSortBookList)
+        setStateSort([...yearSortBookList])
     }
 
     // useEffect(() => {
