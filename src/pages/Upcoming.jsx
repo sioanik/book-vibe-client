@@ -6,7 +6,7 @@ const Upcoming = () => {
     const [upcomingBook, setUpcomingBook] = useState([])
 
     useEffect(()=>{
-        fetch('/upcoming.json')
+        fetch('./upcoming.json')
         .then(res => res.json())
         .then(data => setUpcomingBook(data))
     },[])
