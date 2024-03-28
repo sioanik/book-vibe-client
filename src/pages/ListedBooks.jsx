@@ -1,15 +1,13 @@
-import { useEffect, useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
-import { Link, Outlet } from "react-router-dom";
 import { getReadBooks, getWishlistBooks, readSortPages, readSortRating, readSortYear } from "../utilities/utilities";
-import ReadBooks from "../components/ReadBooks";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import 'react-tabs/style/react-tabs.css';
 import ReadBookCard from "../components/ReadBookCard";
 import WishlistBookCard from "../components/WishlistBookCard";
+import { useState } from "react";
 
 const ListedBooks = () => {
-    const [tabIndex, setTabIndex] = useState(0)
+    // const [tabIndex, setTabIndex] = useState(0)
     // const [sort, setSort] = useState('rating')
 
     // const handleRating = () => {
@@ -58,15 +56,15 @@ const ListedBooks = () => {
 
 
     // ----------------------tabs
-    const readBooksList = getReadBooks()
+    // const readBooksList = getReadBooks()
     const wishList = getWishlistBooks()
 
     return (
-        <div className="w-[90%] mx-auto">
+        <div className="container mx-auto">
             <div className="flex flex-col items-center">
                 <h3 className="text-3xl font-bold py-14 ">Books</h3>
                 {/* <button className="btn font-semibold text-white bg-[#23BE0A]">Sort By <IoIosArrowDown /></button> */}
-                <div className="dropdown dropdown-hover">
+                <div className="mb-16 dropdown dropdown-hover">
                     <div tabIndex={0} role="button" className="btn text-white bg-[#23BE0A] m-1">Sort By <IoIosArrowDown /></div>
                     <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
                         <li onClick={handleRating}><a>Rating</a></li>
@@ -95,8 +93,8 @@ const ListedBooks = () => {
             <div>
                 <Tabs>
                     <TabList>
-                        <Tab>Tab 1</Tab>
-                        <Tab>Tab 2</Tab>
+                        <Tab>Read Books</Tab>
+                        <Tab>Wishlist</Tab>
                     </TabList>
                     <TabPanel>
                         {/* <h2>content1</h2> */}

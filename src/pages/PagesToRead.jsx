@@ -35,7 +35,7 @@ const PagesToRead = () => {
 
 
     return (
-        <div className="flex justify-center w-full">
+        <div className="container mx-auto flex justify-center w-full">
             {/* <p>Pages to Read</p> */}
             <BarChart
                 width={1200}

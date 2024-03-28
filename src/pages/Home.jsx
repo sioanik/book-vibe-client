@@ -7,7 +7,7 @@ const Home = () => {
     // const books = useLoaderData()
 
     return (
-        <div>
+        <div className="container mx-auto">
             <Banner></Banner>
             <h1 className="text-center text-4xl font-bold pt-24 pb-10">Books</h1>
             <BooksSec></BooksSec>

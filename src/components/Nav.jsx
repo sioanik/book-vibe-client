@@ -11,7 +11,7 @@ const Nav = () => {
         {/* <li><Link>sadf</Link></li> */}
     </>
     return (
-        <nav>
+        <nav className="">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -22,16 +22,16 @@ const Nav = () => {
                             {links}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">Book Vibe</a>
+                    <a href="/" className="btn btn-ghost text-lg">Book Vibe</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 gap-4">
+                    <ul className="menu menu-horizontal gap-2 px-1">
                     {links}
                     </ul>
                 </div>
-                <div className="navbar-end gap-3">
-                    <a className="btn text-white text-lg font-semibold btn-primary border-none bg-[#17BE0A]">Sign In</a>
-                    <a className="btn text-white text-lg font-semibold btn-primary border-none bg-[#59C6D2]">Sign Up</a>
+                <div className="navbar-end gap-2">
+                    <a className="btn-sm text-center flex items-center text-white text-xs md:text-xs rounded-lg font-semibold  border-none bg-[#17BE0A]">Sign In</a>
+                    <a className="btn-sm text-center flex items-center text-white text-xs md:text-xs rounded-lg font-semibold  border-none bg-[#59C6D2]">Sign Up</a>
                 </div>
             </div>
         </nav>

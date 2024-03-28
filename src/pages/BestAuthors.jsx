@@ -17,8 +17,8 @@ const BestAuthors = () => {
     // console.log(upcomingBook);
 
     return (
-        <div>
-            <h2 className="text-2xl font-semibold py-8 text-center">Best Authors</h2>
+        <div className="container mx-auto">
+            <h2 className="text-3xl font-semibold py-8 text-center">Best Authors</h2>
             <p className="text-center pb-9">Explore the literary world's finest with our selection of best authors. From renowned novelists to visionary poets, discover captivating stories and timeless wisdom.</p>
             <div className="">
             {
